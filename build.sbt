@@ -19,3 +19,16 @@ val akka: Seq[ModuleID] =
     "com.typesafe.akka" %% "akka-http-xml"        % httpV
   )
 libraryDependencies ++= akka
+libraryDependencies += "com.typesafe" % "config" % "1.4.3"
+
+assemblyMergeStrategy in assembly := {
+  case "application.conf"                            => MergeStrategy.first
+  //case "logback.xml"                                 => MergeStrategy.first
+  case "log4j.properties"                            => MergeStrategy.discard
+  case m if m.toLowerCase.endsWith("manifest.mf")    => MergeStrategy.discard
+  case "module-info.class"                           => MergeStrategy.discard
+  //case PathList("META-INF", xs @ *)                  => MergeStrategy.discard
+  case x =>
+    val oldStrategy = (assemblyMergeStrategy in assembly).value
+    oldStrategy(x)
+}

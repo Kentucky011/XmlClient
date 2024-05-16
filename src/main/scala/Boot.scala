@@ -1,9 +1,10 @@
+import Common.ConfigParser
 import akka.actor.ActorSystem
 
 
 object Boot extends App {
+  //println(args.toList)
   val system = ActorSystem("XmlSystem")
-  val mainActor = system.actorOf(MainActor.props(), MainActor.name)
-  //system.actorOf(ActorPing.props(pong), ActorPing.name)
+  val config = ConfigParser.parse()
+  system.actorOf(MainActor.props(xmlClientConfig = config), MainActor.name)
 }
-
