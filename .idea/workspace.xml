@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a787bb54-480a-45c3-ae4e-cbd1ce3422d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Common/XmlClientConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MyCaseClasses.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MyProtocol.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ActorResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ActorResponse.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ActorSave.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ActorSave.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Boot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Boot.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MainActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MainActor.scala" afterDir="false" />
-    </list>
+    <list default="true" id="a787bb54-480a-45c3-ae4e-cbd1ce3422d2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
